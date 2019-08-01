@@ -1,3 +1,12 @@
 body {
     background: rgb(236, 236, 236);
 }
+
+* {
+    border: solid red 2px;
+}
+
+#call-to-action-section {
+    background: red;
+    height: 100px;
+}
