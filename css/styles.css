@@ -31,6 +31,7 @@ h4 {
 
 #call-to-action-section {
     background-color: whitesmoke;
+    margin-top: 20px;
 }
 
 .left-section-info {
@@ -138,6 +139,15 @@ h4 {
       font-size: 18px !important;
   }
 
+  .signup-newsletter-btn {
+    background-color: #ff6802 !important;
+    color: white !important;
+    border-radius: 20px !important;
+    font-size: 18px !important;
+    border: none !important;
+    padding: 5px 40px;
+  }
+
   .signup-btn-position {
       display: flex !important;
       justify-content: center !important;
@@ -164,4 +174,18 @@ h4 {
   .learn-about-text {
       width: 95%;
       font-size: 16px;
+  }
+
+  .input-box-margin {
+      margin-left: 15px;
+  }
+
+  .footer-test {
+    display: flex;
+    justify-content: center;
+  }
+
+  .test {
+      display: flex;
+      justify-content: center;
   }
