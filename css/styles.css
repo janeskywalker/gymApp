@@ -1,12 +1,96 @@
 body {
-    background: rgb(236, 236, 236);
+    background: white;
 }
 
-* {
+/* * {
     border: solid red 2px;
+} */
+
+.header-section {
+    background-color: #ff6802;
+}
+
+h1 {
+    color: #ff6802;
+}
+
+.bjj {
+    color: #6D7278;
+}
+
+h4 {
+    color: #bdc3c7;
 }
 
 #call-to-action-section {
-    background: red;
-    height: 100px;
+    background-color: whitesmoke;
 }
+
+.left-section-info {
+    padding: 15px 0 20px 20px;
+    background: whitesmoke;
+}
+
+.right-section-info {
+    background: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.newsletter-btn {
+    background-color: #ff6802;
+    border-color: #ff6802;
+    border-radius: 1rem;
+    font-size: 38px;
+    font-style: italic;
+}
+
+.user-icon {
+    color: white !important;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-color {
+    background: #ff6802 !important;
+}
+
+.article-section-top {
+    box-shadow: 2px 2px 2px #979797;
+    background-color: whitesmoke;
+    padding: 20px;
+    border: solid #979797 1px;
+    margin-top: 30px;
+}
+
+.article-section-bottom {
+    box-shadow: 2px 2px 2px #979797;
+    background-color: whitesmoke;
+    padding: 20px;
+    border: solid #979797 1px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.article-text {
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+.class-schedule {
+    margin-top: 10px;
+    list-style: none;
+    font-weight: 100;
+}
+
+.footer-section {
+    background-color: #ff6802;
+}
+
+.copy-right {
+    color: white;
+}
+
