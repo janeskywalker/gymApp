@@ -7,8 +7,9 @@ body {
     outline: none;
 } */
 
-.btn:focus{
-    box-shadow:none;
+.btn:focus,.btn:active {
+    outline: none !important;
+    box-shadow: none;
  }
 
 .header-section {
@@ -20,12 +21,12 @@ h1 {
     font-weight: bolder;
 }
 
-.bjj {
-    color: #6D7278;
-}
-
 h4 {
     color: #2e3131;
+}
+
+.bjj {
+    color: #6D7278;
 }
 
 #call-to-action-section {
