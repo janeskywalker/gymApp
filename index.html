@@ -19,6 +19,56 @@
     <title>Gym</title>
   </head>
   <body>
+    <!-- Modal Section -->
+
+ 
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalCenterTitle"><strong>About our newsletters</strong></h5>
+          
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <p class="learn-about-text">Learn about the latest health trends, get active in the community with our monthly events, or
+                keep up today with the latest gym schedule.</p>
+            <h5><strong>Choose your news</strong></h5>
+            <p><i>Newsletter options</i></p>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <label class="form-check-label input-box-margin" for="defaultCheck1">
+                  Weekly gum schedule
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
+                <label class="form-check-label input-box-margin" for="defaultCheck2">
+                  Weekly health blog
+                </label>
+              </div>
+              <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck3">
+                  <label class="form-check-label input-box-margin" for="defaultCheck3">
+                    Monthly gym events
+                  </label>
+                </div>
+        </div>
+        <div class="modal-footer footer-test">
+          <div class="test">
+              <button type="button" onClick="newaletterPage()" class="btn btn-primary signup-newsletter-btn">Submit</button>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+
     <header>
 
       <div class="row header-section">
@@ -26,7 +76,7 @@
           <div class="col-md-2 offset-md-10">
               <ul class="navbar-nav">
                   <li class="nav-item active">
-                    <a class="nav-link nav-link" href="newsletter.html"><i class="far fa-user user-icon"></i> <span style="color:white">Sign Up</span></a>
+                    <a class="nav-link nav-link" href="signup.html"><i class="far fa-user user-icon"></i> <span style="color:white">Sign Up</span></a>
                   </li>
                 </ul>
           </div>
@@ -55,23 +105,27 @@
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                  <img src="images/hero-img-1.jpg" class="d-block w-100" alt="...">
+                  <img src="./images/hero-img-1.jpg" class="d-block w-100" alt="...">
               </div>
             </div>
           </div>
     </section>
 
-    <section id="call-to-action-section">
+    <section id="call-to-action-section" class="shadow">
      <div class="container">
        <div class="row">
          <div class="col-md-6 left-section-info">
           <h1>Choose your news</h1>
-          <h4>Get news on our community events,</h4>
-          <h4>gym schedules, and wellness articles</h4>
+          <h4>Get news on our community events, gym schedules, and wellness articles</h4>
          </div>
          <div class="col-md-6 right-section-info">
-              <button type="button" onClick="newaletterPage()" class="btn btn-primary btn-lg newsletter-btn">Newsletter Signup</button>
+              <button type="button" class="btn btn-primary btn-lg newsletter-btn" data-toggle="modal" data-target="#exampleModalCenter">Newsletter Signup</button>
           </div>
+
+          <!-- Add event listener if not working -->
+          <!-- onClick="newaletterPage()" -->
+
+          
           <!-- <div class="col-md-6">
               <button id="sign-up-button"type="button" class="btn btn-primary">Sign Up!</button>
               <a href="./signup.html">Sign Up Here!</a>
@@ -90,7 +144,7 @@
               <div class="col-md-6">
                  <img src="./images/bjj-img.jpg" alt="">
               </div>
-              <div class="col-md-6 test">
+              <div class="col-md-6">
                 <h1 class="bjj">Jui Jitsu</h1>
                 <p class="article-text">Stuff about this class</p>
                 <p class="article-text">Times of class:</p>
