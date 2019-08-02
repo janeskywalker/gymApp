@@ -102,3 +102,9 @@ h4 {
     color: white;
 }
 
+
+@media only screen and (max-width: 600px) {
+    .newsletter-btn {
+        padding: .7rem;
+    }
+  }
