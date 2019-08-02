@@ -1,10 +1,15 @@
 body {
     background: white;
+    font-family: 'Quicksand', sans-serif;
 }
 
 /* * {
-    border: solid red 2px;
+    outline: none;
 } */
+
+.btn:focus{
+    box-shadow:none;
+ }
 
 .header-section {
     background-color: #ff6802;
@@ -12,6 +17,7 @@ body {
 
 h1 {
     color: #ff6802;
+    font-weight: bolder;
 }
 
 .bjj {
@@ -19,7 +25,7 @@ h1 {
 }
 
 h4 {
-    color: #bdc3c7;
+    color: #2e3131;
 }
 
 #call-to-action-section {
@@ -44,6 +50,8 @@ h4 {
     border-radius: 1rem;
     font-size: 38px;
     font-style: italic;
+    font-weight: 100;
+    padding: .5rem 3rem;
 }
 
 .user-icon {
