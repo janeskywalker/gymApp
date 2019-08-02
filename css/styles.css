@@ -1,3 +1,166 @@
 body {
-    background: rgb(236, 236, 236);
+    background: white;
+    font-family: 'Quicksand', sans-serif;
 }
+
+/* * {
+    outline: none;
+} */
+
+.btn:focus,.btn:active {
+    outline: none !important;
+    box-shadow: none;
+ }
+
+.header-section {
+    background-color: #ff6802;
+}
+
+h1 {
+    color: #ff6802;
+    font-weight: bolder;
+}
+
+h4 {
+    color: #2e3131;
+}
+
+.bjj {
+    color: #6D7278;
+}
+
+#call-to-action-section {
+    background-color: whitesmoke;
+}
+
+.left-section-info {
+    padding: 15px 0 20px 20px;
+    background: whitesmoke;
+}
+
+.right-section-info {
+    background: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.newsletter-btn {
+    background-color: #ff6802;
+    border-color: #ff6802;
+    border-radius: 1rem;
+    font-size: 38px;
+    font-style: italic;
+    font-weight: 100;
+    padding: .5rem 3rem;
+}
+
+.user-icon {
+    color: white !important;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-color {
+    background: #ff6802 !important;
+}
+
+.article-section-top {
+    box-shadow: 2px 2px 2px #979797;
+    background-color: whitesmoke;
+    padding: 20px;
+    border: solid #979797 1px;
+    margin-top: 30px;
+}
+
+.article-section-bottom {
+    box-shadow: 2px 2px 2px #979797;
+    background-color: whitesmoke;
+    padding: 20px;
+    border: solid #979797 1px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.article-text {
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+.class-schedule {
+    margin-top: 10px;
+    list-style: none;
+    font-weight: 100;
+}
+
+.footer-section {
+    background-color: #ff6802;
+}
+
+.copy-right {
+    color: white;
+}
+
+
+.privacy-button{
+    margin: 0 !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .newsletter-btn {
+        padding: .7rem;
+    }
+
+    .sign-up-form {
+        margin-top: 100px !important;
+    }
+  }
+
+  .sign-up-form {
+      margin-top: 50px;
+      background: rgba(255, 255, 255, 0.5) !important;
+      border-radius: 10px;
+      border: #3333 solid 1px;
+      box-shadow: 1px 1px 1px #979797;
+  }
+
+  .signup-body {
+      background: url('https://www.toptal.com/designers/subtlepatterns/patterns/retina_wood.png')
+  }
+
+  .signup-btn {
+      background-color: #ff6802 !important;
+      color: white !important;
+      border-radius: 20px !important;
+      font-size: 18px !important;
+  }
+
+  .signup-btn-position {
+      display: flex !important;
+      justify-content: center !important;
+  }
+
+  .privacy-btn {
+      text-decoration: none;
+  }
+
+  .card {
+    border: none !important;
+    background-color:  rgba(255, 255, 255, 0) !important;
+  }
+
+  .card-header {
+    background-color: rgba(255, 255, 255, 0) !important;
+  }
+
+  .accordion {
+      padding-right: 15px;
+      font-size: 16px;
+  }
+
+  .learn-about-text {
+      width: 95%;
+      font-size: 16px;
+  }
